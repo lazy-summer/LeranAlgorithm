@@ -47,6 +47,7 @@
     <Compile Include="LinkQueueOfString.cs" />
     <Compile Include="LinkStack.cs" />
     <Compile Include="PracticalSort.cs" />
+    <Compile Include="BinaryHeap.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="EasySort.cs" />
     <Compile Include="SortApplication.cs" />

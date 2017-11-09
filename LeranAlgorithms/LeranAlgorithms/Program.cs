@@ -74,7 +74,7 @@ namespace LeranAlgorithms
             var psort = new PokerSort();
             psort.iinitialize();
             psort.sortAndShow();
-            psort.shellsort();*/
+            psort.shellsort();
             //var prsort = new PracticalSort();
             //var quSort = new Quick();
             var threeSort = new ThreeWaySort();
@@ -93,7 +93,34 @@ namespace LeranAlgorithms
             {
                 Console.Write(arr[i]+" ");
             }
-            //Console.Write(quSort.selectIndex(arr,5));
+            //Console.Write(quSort.selectIndex(arr,5));*/
+
+            //Test HeapSort
+            var bsort = new BinaryHeap(100);
+
+            int[] arr = new int[10];
+            Random rd = new Random();
+
+
+            for (int i = 1; i < 80; i++)
+            {
+                var x = rd.Next(200);
+                bsort.Insert(x);
+                Console.WriteLine(x);
+            }
+            Console.WriteLine("");
+            while (!bsort.IsEmpty())
+            {
+                Console.WriteLine(bsort.DelMin());
+            }
+
+            for (int i = 1; i < 10; i++)
+                arr[i] = rd.Next(105);
+
+            var hsort = new HeapSort(arr);
+            //foreach (int item in arr)
+              //  Console.WriteLine(item);
+
         }
     }
 }
