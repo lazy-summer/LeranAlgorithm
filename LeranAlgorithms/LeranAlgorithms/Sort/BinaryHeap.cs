@@ -86,7 +86,7 @@ namespace LeranAlgorithms
             for (int k = N / 2; k >= 1; k--)
                 sink(arr, k, N);
             while (N > 1) 
-            {
+            {  
                 swap(arr,1, N);
                 sink(arr, 1, --N);
             }

@@ -96,7 +96,7 @@ namespace LeranAlgorithms
             //Console.Write(quSort.selectIndex(arr,5));*/
 
             //Test HeapSort
-            var bsort = new BinaryHeap(100);
+            /*var bsort = new BinaryHeap(100);
 
             int[] arr = new int[10];
             Random rd = new Random();
@@ -119,8 +119,24 @@ namespace LeranAlgorithms
 
             var hsort = new HeapSort(arr);
             //foreach (int item in arr)
-              //  Console.WriteLine(item);
+            //  Console.WriteLine(item);*/
 
+            //Test Bst
+            var bst = new BST<int, string>();
+            bst.put(2, "ttt");
+            bst.put(4, "tsstt");
+            bst.put(5, "st111tt");
+            bst.put(1, "ttt");
+            bst.put(0, "tt11t");
+            bst.put(9, "ttt");
+            bst.delete(5);
+            var x = bst.keys();
+            while (!x.isEmpty())
+            {
+                Console.WriteLine(x.pop());
+            }
+          //  Console.WriteLine(bst.ceiling(7));
+            
         }
     }
 }

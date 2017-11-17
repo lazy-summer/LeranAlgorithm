@@ -43,20 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrStack.cs" />
-    <Compile Include="LinkQueueOfString.cs" />
-    <Compile Include="LinkStack.cs" />
-    <Compile Include="PracticalSort.cs" />
-    <Compile Include="BinaryHeap.cs" />
+    <Compile Include="Basic_Data_Structure\ArrStack.cs" />
+    <Compile Include="Basic_Data_Structure\LinkQueueOfString.cs" />
+    <Compile Include="Basic_Data_Structure\LinkStack.cs" />
+    <Compile Include="BST.cs" />
+    <Compile Include="Sort\PracticalSort.cs" />
+    <Compile Include="Sort\BinaryHeap.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="EasySort.cs" />
+    <Compile Include="Sort\EasySort.cs" />
+    <Compile Include="Solution.cs" />
     <Compile Include="SortApplication.cs" />
-    <Compile Include="StackToQueue.cs" />
+    <Compile Include="Basic_Data_Structure\StackToQueue.cs" />
+    <Compile Include="SymbolTable.cs" />
     <Compile Include="UF.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="new\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
