@@ -7,3 +7,9 @@ C:\Users\wsj\Desktop\LeranAlgorithms\LeranAlgorithms\obj\Debug\LeranAlgorithms.p
 C:\Users\wsj\Source\Repos\LeranAlgorithm\LeranAlgorithms\LeranAlgorithms\bin\Debug\LeranAlgorithms.exe.config
 C:\Users\wsj\Source\Repos\LeranAlgorithm\LeranAlgorithms\LeranAlgorithms\obj\Debug\LeranAlgorithms.exe
 C:\Users\wsj\Source\Repos\LeranAlgorithm\LeranAlgorithms\LeranAlgorithms\obj\Debug\LeranAlgorithms.pdb
+C:\Users\wsj\Source\Repos\LeranAlgorithmGit\LeranAlgorithms\LeranAlgorithms\bin\Debug\LeranAlgorithms.exe.config
+C:\Users\wsj\Source\Repos\LeranAlgorithmGit\LeranAlgorithms\LeranAlgorithms\obj\Debug\LeranAlgorithms.exe
+C:\Users\wsj\Source\Repos\LeranAlgorithmGit\LeranAlgorithms\LeranAlgorithms\obj\Debug\LeranAlgorithms.pdb
+C:\Users\wsj\Source\Repos\LeranAlgorithmGit\LeranAlgorithms\LeranAlgorithms\bin\Debug\LeranAlgorithms.exe
+C:\Users\wsj\Source\Repos\LeranAlgorithmGit\LeranAlgorithms\LeranAlgorithms\bin\Debug\LeranAlgorithms.pdb
+C:\Users\wsj\Source\Repos\LeranAlgorithmGit\LeranAlgorithms\LeranAlgorithms\obj\Debug\LeranAlgorithms.csprojResolveAssemblyReference.cache
